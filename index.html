@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joe TW Ho | Quant, DeFi and Web3 Research</title>
+    <style>
+        :root {
+            --text-main: #111827;
+            --text-muted: #6b7280;
+            --accent: #2563eb;
+            --accent-hover: #1d4ed8;
+            --bg-page: #f3f4f6;
+            --bg-card: #ffffff;
+            --border: #e5e7eb;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-main);
+            background-color: var(--bg-page);
+            margin: 0;
+            padding: 2rem 1rem;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--bg-card);
+            padding: 3rem 4rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 2px solid var(--border);
+        }
+
+        h1 {
+            margin: 0 0 0.5rem 0;
+            font-size: 2.5rem;
+            font-weight: 800;
+            letter-spacing: -0.025em;
+        }
+
+        .subtitle {
+            font-size: 1.25rem;
+            color: var(--text-muted);
+            margin-bottom: 1.25rem;
+            font-weight: 500;
+        }
+
+        .contact-links {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            font-size: 0.95rem;
+        }
+
+        .contact-links a {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s ease;
+        }
+
+        .contact-links a:hover {
+            color: var(--accent-hover);
+            text-decoration: underline;
+        }
+
+        h2 {
+            color: var(--text-main);
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-top: 2.5rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid var(--border);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .project {
+            margin-bottom: 2.5rem;
+        }
+
+        .project:last-child {
+            margin-bottom: 0;
+        }
+
+        h3 {
+            margin: 0 0 0.25rem 0;
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+
+        h3 a {
+            color: var(--text-main);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        h3 a:hover {
+            color: var(--accent);
+        }
+
+        .meta {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            font-style: italic;
+            margin-bottom: 0.75rem;
+            display: block;
+        }
+
+        ul {
+            margin-top: 0.5rem;
+            padding-left: 1.25rem;
+            color: var(--text-main);
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 640px) {
+            .container {
+                padding: 2rem 1.5rem;
+            }
+            .contact-links {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>JOE TW HO</h1>
+            <div class="subtitle">Quant, DeFi and Web3 Research</div>
+            <div class="contact-links">
+                <a href="mailto:twhoae@connect.ust.hk">Email</a>
+                <a href="https://scholar.google.com/citations?hl=en&user=pZJnX2AAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+                <a href="https://www.linkedin.com/in/joehoxyz/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+        </header>
+
+        <section>
+            <h2>Quantitative Strategies & Portfolio Management</h2>
+            
+            <div class="project">
+                <h3><a href="https://github.com/yoho369/crypto-perpetual-arbitrage" target="_blank" rel="noopener noreferrer">Arbitraging the Price Space: Funding-Adjusted Cross-Exchange Perpetual Arbitrage</a></h3>
+                <span class="meta">minute-level perpetual arbitrage strategies | 2026</span>
+                <ul>
+                    <li>Calibrated a discrete-time approximation of the Ornstein-Uhlenbeck (OU) process as an AR(1) model to capture mean-reverting cross-venue perpetual price spreads.</li>
+                    <li>Engineered an execution pipeline processing Level-1 BBO data alongside dynamic crypto funding accrual math to strip out deterministic drift.</li>
+                    <li>Implemented pre-trade Illiquidity Entry Guards and cost-adjusted Expected Value (EV) gates to mitigate toxic order flow, compressing maximum drawdown on long-tail assets by up to 93%.</li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <h3><a href="https://github.com/yoho369/regime-integrated-asset-allocation" target="_blank" rel="noopener noreferrer">Regime-Integrated Cross-Asset Allocation Using Alternative Macro Data</a></h3>
+                <span class="meta">systematic cross-asset portfolio construction | 2026</span>
+                <ul>
+                    <li>An experiment on improving classical asset allocation methods with regime predictions using alternative macro indicators.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Web3 & DeFi Mechanics</h2>
+
+            <div class="project">
+                <h3><a href="https://www.soa.org/resources/research-reports/2022/decentralized-finance-protocols/" target="_blank" rel="noopener noreferrer">A Risk Classification Framework for Decentralized Finance Protocols</a></h3>
+                <span class="meta">with Society of Actuaries (SOA) | 2022</span>
+                <ul>
+                    <li>Co-authored a framework identifying emerging risks in DeFi protocols for institutional insurers.</li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <h3>Estimating Fee Elasticities of Demand at Major Blockchain Platforms</h3>
+                <span class="meta">time-series econometrics on blockchain network usage | 2025</span>
+                <ul>
+                    <li>Developed time-series forecasting models (ARIMAX and VAR) leveraging on-chain data to estimate Layer-1's usage demand change with respect to gas fee changes and optimize staking and pricing strategies for a partnering L1 DLT platform.</li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <h3><a href="https://github.com/yoho369/vault-optimization/blob/main/vault_optimization.pdf" target="_blank" rel="noopener noreferrer">A Conceptual Discussion on Recursive Vault Optimization & Vault Risk Analysis</a></h3>
+                <span class="meta">Leveraged Vault Optimization and Risk Analysis | 2025</span>
+                <ul>
+                    <li>A conceptual framework analyzing recursive leveraged staking strategies (e.g., looping ETH/stETH across DeFi lending venues like Aave and Morpho).</li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <h3>Single-Sided AMM Design & Architecture</h3>
+                <span class="meta">AMM design & vulnerability modeling | 2022</span>
+                <ul>
+                    <li>Modeled arbitrage vulnerabilities and architected optimal fee boundaries, liquidity mining designs, and interest mechanisms for a single-sided "open liquidity" stableswap AMM that hit ecosystem-top TVL and trading volumes at peaks.</li>
+                    <li>Engineered an alternative Vote-Escrow model from Curve to incentivize stablecoin deposits with time-locked governance tokens.</li>
+                    <li>Designed an interest rate model on coverage ratio adjustments, preventing mercenary capital from manipulating token emissions.</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>
